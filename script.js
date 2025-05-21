@@ -62,10 +62,55 @@ let person = {
 // console.log((a>b)|| (a>=b));
 // console.log(!(a>b));
 
-let age = 25;
-let learner= true;
-if (age < 25 && learner){
-    console.log("young learner");
+// let age = 25;
+// let learner= true;
+// if (age < 25 && learner){
+//     console.log("young learner");
+// }
+
+// loop
+// *for loop
+
+// for (let x=0;x<=15;x++){
+//     console.log("iteration number #{x}");
+
+// }
+
+// *while loop
+// let count = 0;
+// while (count < 10){
+//     console.log( `count:#{count}`);
+//     count ++
+// }
+
+
+// // *do while loop
+// let num = 10
+// do {console.log(`number: ${num}`);
+//     num -= 2;
+// }while (num >= 0)
+
+// *for of loop
+// const fruits =[ "banana", "orange", "mango", "berries", "apple"];
+// for (const fruit of fruits){
+//     console.log(fruit)
+// }
+// const name = "Babatunde";
+// for (const letter of name){
+//     console.log(letter);
+// }
+
+
+// *for in loop
+const Person = {
+    firstname: "john",
+    secondname: "doe",
+    age: 30,
+    job: "developer"
+
+};
+for (const property in Person){
+    console.log(`${property}:${Person[property]}`)
 }
 
 

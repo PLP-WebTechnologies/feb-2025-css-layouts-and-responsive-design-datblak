@@ -18,6 +18,20 @@
     font-size: 30px;
     color: goldenrod;
     margin-bottom: 80px;
+
+    /* transform: transform 0.3s ease; */
+}
+#first :nth-child(1){
+    transform: transform 0.3s ease;
+}
+#first :nth-child(1):hover{
+    transform: translateY(10px)
+    
+    
+}
+
+#first:hover{
+   color: black; 
 }
 @media (max-width: 428px){
     #first{
@@ -138,6 +152,10 @@ ul li a{all: unset;
     margin-left: 200px;
     border-radius: 20px;
 }
+.img :nth-child(1):hover{
+    transform: translateY(20px)
+}
+
 @media (max-width: 428px){
     .img :nth-child(1){
         padding-left: -60px;
@@ -168,6 +186,10 @@ ul li a{all: unset;
     .img :nth-child(2){
         margin-left: 95px;
         margin-top: -10px;
+        transform: transform 0.3s ease;
         
     }
+}
+.img :nth-child(2):hover{
+    transform: translateY(20px)
 }
